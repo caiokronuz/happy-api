@@ -1,12 +1,12 @@
-const express = require("express")
-require("express-async-errors")
-const cors = require("cors")
+import express from 'express';
+import 'express-async-errors';
+import cors from 'cors';
 
-require("./database/connection");
-const routes = require("./routes");
-const path = require("path")
+import './database/connection'
+import routes from './routes';
+import path from 'path'
 
-const errorHandler = require("./errors/handler");
+import errorHandler from './errors/handler';
 
 const app = express();
 
