@@ -1,4 +1,4 @@
-import express from 'express';
+var express = require("express");
 import 'express-async-errors';
 import cors from 'cors';
 
